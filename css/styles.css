@@ -358,14 +358,17 @@ footer {
 
 footer h5,
 footer h6,
-.bg-dark h2,
-.bg-dark h3:not(.stat-card h3),
-.bg-dark h5:not(.program-card h5) {
+.bg-dark h2 {
   color: var(--primary-color);
 }
 
-.stat-card h3 {
-  color: white;
+.bg-dark h3:not(.stat-card h3) {
+  color: var(--primary-color);
+}
+
+.stat-card h3,
+.program-card .card-header.bg-dark h5 {
+  color: white !important;
 }
 
 .social-links a {
