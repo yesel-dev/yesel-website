@@ -356,6 +356,11 @@ footer {
   background: var(--dark-color);
 }
 
+footer h5,
+footer h6 {
+  color: var(--primary-color);
+}
+
 .social-links a {
   font-size: 1.25rem;
   transition: all 0.3s ease;
