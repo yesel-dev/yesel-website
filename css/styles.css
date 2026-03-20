@@ -357,8 +357,15 @@ footer {
 }
 
 footer h5,
-footer h6 {
+footer h6,
+.bg-dark h2,
+.bg-dark h3:not(.stat-card h3),
+.bg-dark h5:not(.program-card h5) {
   color: var(--primary-color);
+}
+
+.stat-card h3 {
+  color: white;
 }
 
 .social-links a {
